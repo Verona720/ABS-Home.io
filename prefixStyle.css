@@ -1,0 +1,301 @@
+
+/* General Styles */
+
+/* Jade Green: #00A86B; */
+/* Purple: #A80073; */
+/* Background Grey: #b3b3b3; */
+/* Icons: https://iconscout.com/unicons */
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #585858;
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Navigation Styles */
+
+.Nav-Container {
+
+    -webkit-box-align: center;
+
+        -ms-flex-align: center;
+
+            align-items: center;
+    font-size: 2em;
+    padding: 12px;
+    /* padding: 16px; */
+    color: #585858;
+
+    /* Fixed Bar */
+
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+    /* Border Shadow */
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.ABS-Logo {
+    margin-right: 80px;
+    font-size: 2em;
+    color: #00A86B;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Jomolhari', serif;
+    font-weight: 300;
+}
+
+/* nav {
+    font-size: 2em;
+    padding: 16px;
+    color: #585858;
+
+    Fixed Bar
+
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+    Border Shadow
+
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+} */
+
+ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    /* justify-content: flex-end; */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+li {
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 30px;
+    /* margin-right: 3%; */
+
+    font-size: 1.25em;
+
+}
+
+li:hover {
+    color: #000;
+    cursor: pointer;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    letter-spacing: 1px;
+}
+
+/* Header Styles */
+
+header {
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,168,107, 0.7)), to(rgba(0,168,107, 0.7))), url(numbers.jpg);
+    background: -o-linear-gradient(rgba(0,168,107, 0.7), rgba(0,168,107, 0.7)), url(numbers.jpg);
+    background: linear-gradient(rgba(0,168,107, 0.7), rgba(0,168,107, 0.7)), url(numbers.jpg);
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.hero-box {
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.hero-box h1 {
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.Contact-btn {
+    background-color: #fff;
+    color: #00A86B;
+    font-size: 0.75em;
+    padding: 7px 10px;
+    border: none;
+    border: 2px solid #fff;
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 300;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.Contact-btn:hover {
+    -webkit-transform: translateY(-10%);
+        -ms-transform: translateY(-10%);
+            transform: translateY(-10%);
+    background-color: #fff;
+    color: #00A86B;
+    font-size: 0.75em;
+    padding: 7px 10px;
+    border: 2px solid #fff;
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 300;
+    border-radius: 4px;
+    cursor: pointer;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+/* Services Styles */
+
+.Services {
+    padding: 40px 0;
+    color: #00A86B;
+}
+
+.Service-Subtitle {
+    text-align: center;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.Service-Subtitle-2 {
+    text-align: center;
+    font-size: 4em;
+    margin: 30px 0;
+    font-weight: 300; 
+}
+
+.Box-Container {
+    /* background-color: blue; */
+    margin: 60px 30px 30px 30px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.Box {
+    height: 175px;
+    width: 400px;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 10px;
+    /* background-color: yellow; */
+}
+
+.Box h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.Box i {
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+
+/* Why Us? Styles */
+
+.Why-Us {
+    padding: 80px 0;
+    color: #A80073;
+    background-color: #b3b3b3;
+}
+
+.Why-Us-Subtitle {
+    text-align: center;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+/* Text Section */
+
+.Text-Section {
+    padding: 80px 0;
+    /* background-color: red; */
+    color: #585858;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.Text-Section-Subtitle {
+    color: #00A86B;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.Text-Box-1, .Text-Box-2 {
+    margin: 5px 5px 5px 5px;
+}
+
+.Text-Box-1 {
+    /* background-color: blue; */
+    font-size: 2em;
+}
+
+.Text-Box-2 {
+    /* background-color: yellow; */
+    font-size: 2em;
+}
+
